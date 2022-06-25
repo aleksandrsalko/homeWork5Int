@@ -9,9 +9,9 @@ int[] array = new int[5];
 
 FillArrayRandomNumbers(array);
 PrintArray(array);
-SumOddNumbers(array);
+DiffMaxMin(array);
 
-void SumOddNumbers(int[] array)
+void DiffMaxMin(int[] array)
 {
 int max = array[0];
 int min = array[0]; 
